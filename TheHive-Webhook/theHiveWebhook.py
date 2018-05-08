@@ -253,7 +253,7 @@ def observe_delete():  # Case obserable deleted
     "Response: " + str(r.status_code) + "," + str(r.reason)
 
 
-def find_key(obj, key):
+def find_key(obj, key):  # recursive generator
     if isinstance(obj, dict):
         yield from iter_dict(obj, key, [])
     elif isinstance(obj, list):
@@ -283,7 +283,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST'])  # Flask app route
 def process():  # If logic
-    data = json.loads(request.data.decode("utf-8"))  # decode to utf-8 string
+    data = json.loads(request.data.decode("utf-8"))  # decode json data to utf-8 string
     keys = "objectType", "operation", "status"
 
     for k in keys:
