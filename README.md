@@ -3,7 +3,7 @@ A Slack webhook I created using Flask
 
 Big shout out to Eric and everyone at [Recon InfoSec](https://reconinfosec.com/)
 
-#Requirements
+# Requirements
 1. Linux server requirements 
 
     * `sudo apt-get update && sudo apt-get -y upgrade`
@@ -28,7 +28,7 @@ Big shout out to Eric and everyone at [Recon InfoSec](https://reconinfosec.com/)
 
 1. $PROFIT
 
-#Caution!
+# Caution!
 
 1. Make sure you change your `crypto secret` on TheHive
 1. Make sure you configure SSL and a Proxy if you use in production [(source)](https://github.com/TheHive-Project/TheHiveDocs/blob/master/admin/webhook.md)
@@ -36,7 +36,7 @@ Big shout out to Eric and everyone at [Recon InfoSec](https://reconinfosec.com/)
     * I recommend [Gunicorn](http://gunicorn.org/) with [NGINX](https://www.nginx.com/). You have lots of [choices](http://flask.pocoo.org/docs/0.12/deploying/)
     * Better yet, get with the times and go [serverless](https://github.com/ReconInfoSec/thehive-slack-webhook)
 
-#Contributors
+# Contributors
 
 * [@cyberGoatPsyOps](https://twitter.com/cyberGoatPsyOps)
 * [@eric_capuano](https://twitter.com/eric_capuano)
