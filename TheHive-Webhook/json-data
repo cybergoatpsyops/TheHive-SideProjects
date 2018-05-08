@@ -334,6 +334,7 @@ JSON data from every action in TheHive
 
 
 ###Task Update###
+
 {
     "startDate": 1525206849564,
     "objectId": "AWMdaX6eXyas6flGUNJN",
@@ -367,6 +368,7 @@ JSON data from every action in TheHive
 }
 
 ###task description update###
+
 {
     "rootId": "AWM41zqNuy9Z-7Df4Ytm",
     "objectType": "case_task",
