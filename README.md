@@ -40,4 +40,4 @@ Big shout out to Eric and everyone at [Recon InfoSec](https://reconinfosec.com/)
 
 * [@cyberGoatPsyOps](https://twitter.com/cyberGoatPsyOps)
 * [@eric_capuano](https://twitter.com/eric_capuano)
-* And of course everyone at [TheHiveProject](The Hive Project)
+* And of course everyone at [TheHive Project](https://github.com/TheHive-Project/TheHive)
