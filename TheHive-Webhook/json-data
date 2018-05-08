@@ -1,0 +1,400 @@
+JSON data from TheHive
+
+
+###Delete case###
+
+{
+    "startDate": 1525206040039,
+    "objectId": "AWMdTs0GXyas6flGUNIp",
+    "rootId": "AWMdTs0GXyas6flGUNIp",
+    "object": {},
+    "base": true,
+    "details": {
+        "status": "Open",
+        "startDate": 1525205040000,
+        "tlp": 2,
+        "description": "User found a USB in the parking lot",
+        "title": "Rubber Ducky",
+        "tags": [],
+        "caseId": 52,
+        "metrics": {},
+        "flag": false,
+        "owner": "admin",
+        "customFields": {},
+        "severity": 2
+    },
+    "operation": "Delete",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:61",
+    "objectType": "case"
+}
+
+###New Case###
+
+{
+    "startDate": 1525206425206,
+    "objectId": "AWMdYxqHXyas6flGUNI8",
+    "rootId": "AWMdYxqHXyas6flGUNI8",
+    "object": {
+        "status": "Open",
+        "startDate": 1525206360000,
+        "_type": "case",
+        "tlp": 2,
+        "description": "New case description",
+        "title": "Rubber Ducky",
+        "tags": [],
+        "caseId": 55,
+        "_version": 1,
+        "metrics": {},
+        "flag": false,
+        "_routing": "AWMdYxqHXyas6flGUNI8",
+        "createdBy": "admin",
+        "_parent": null,
+        "owner": "admin",
+        "customFields": {},
+        "_id": "AWMdYxqHXyas6flGUNI8",
+        "id": "AWMdYxqHXyas6flGUNI8",
+        "createdAt": 1525206424063,
+        "severity": 2
+    },
+    "base": true,
+    "details": {
+        "status": "Open",
+        "startDate": 1525206360000,
+        "tlp": 2,
+        "description": "New case description",
+        "title": "Rubber Ducky",
+        "tags": [],
+        "caseId": 55,
+        "metrics": {},
+        "flag": false,
+        "owner": "admin",
+        "customFields": {},
+        "severity": 2
+    },
+    "operation": "Creation",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:101",
+    "objectType": "case"
+}
+
+
+###Updating Case###
+
+{
+    "startDate": 1525206468234,
+    "objectId": "AWMdYxqHXyas6flGUNI8",
+    "rootId": "AWMdYxqHXyas6flGUNI8",
+    "object": {
+        "startDate": 1525206360000,
+        "caseId": 55,
+        "updatedAt": 1525206467431,
+        "owner": "admin",
+        "id": "AWMdYxqHXyas6flGUNI8",
+        "createdAt": 1525206424063,
+        "_routing": "AWMdYxqHXyas6flGUNI8",
+        "severity": 2,
+        "title": "Rubber Ducky",
+        "_parent": null,
+        "customFields": {},
+        "status": "Open",
+        "_type": "case",
+        "description": "New case description\n\nUpdating the case",
+        "tags": [],
+        "metrics": {},
+        "flag": false,
+        "createdBy": "admin",
+        "updatedBy": "admin",
+        "tlp": 2,
+        "_version": 2,
+        "_id": "AWMdYxqHXyas6flGUNI8"
+    },
+    "base": true,
+    "details": {
+        "description": "New case description\n\nUpdating the case"
+    },
+    "operation": "Update",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:109",
+    "objectType": "case"
+}
+
+###New observable###
+
+{
+    "startDate": 1525206238109,
+    "objectId": "d72e81366f9ebbe4d7154c7ffff661da",
+    "rootId": "AWMdTEBtXyas6flGUNIl",
+    "object": {
+        "status": "Ok",
+        "startDate": 1525206237376,
+        "type": "case_artifact",
+        "tlp": 2,
+        "tags": [],
+        "dataType": "hash",
+        "data": "30924579043587490235",
+        "_version": 1,
+        "reports": {},
+        "_parent": "AWMdTEBtXyas6flGUNIl",
+        "_routing": "AWMdTEBtXyas6flGUNIl",
+        "createdBy": "admin",
+        "sighted": false,
+        "message": "New observable description",
+        "_id": "d72e81366f9ebbe4d7154c7ffff661da",
+        "ioc": false,
+        "id": "d72e81366f9ebbe4d7154c7ffff661da",
+        "createdAt": 1525206237360
+    },
+    "base": true,
+    "details": {
+        "status": "Ok",
+        "startDate": 1525206237376,
+        "tlp": 2,
+        "tags": [],
+        "sighted": false,
+        "message": "New observable description",
+        "_id": "d72e81366f9ebbe4d7154c7ffff661da",
+        "ioc": false
+    },
+    "operation": "Creation",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:81",
+    "objectType": "case_artifact"
+}
+
+###Delete observable###
+
+{
+    "startDate": 1525206358160,
+    "objectId": "d72e81366f9ebbe4d7154c7ffff661da",
+    "rootId": "AWMdTEBtXyas6flGUNIl",
+    "object": {
+        "status": "Deleted",
+        "startDate": 1525206237376,
+        "_type": "case_artifact",
+        "tlp": 2,
+        "tags": [],
+        "dataType": "hash",
+        "data": "30924579043587490235",
+        "updatedBy": "admin",
+        "_version": 2,
+        "reports": {},
+        "_parent": "AWMdTEBtXyas6flGUNIl",
+        "_routing": "AWMdTEBtXyas6flGUNIl",
+        "createdBy": "admin",
+        "sighted": false,
+        "updatedAt": 1525206357128,
+        "message": "New observable description",
+        "_id": "d72e81366f9ebbe4d7154c7ffff661da",
+        "ioc": false,
+        "id": "d72e81366f9ebbe4d7154c7ffff661da",
+        "createdAt": 1525206237360
+    },
+    "base": true,
+    "details": {},
+    "operation": "Delete",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:100",
+    "objectType": "case_artifact"
+}
+
+###Update observable###
+
+{
+    "startDate": 1525206986630,
+    "objectId": "dfe74e82e589c2d35a9e81d9a57a9393",
+    "rootId": "AWMdYxqHXyas6flGUNI8",
+    "object": {
+        "status": "Ok",
+        "startDate": 1525206944774,
+        "_type": "case_artifact",
+        "tlp": 2,
+        "tags": [
+            "hash"
+        ],
+        "dataType": "hash",
+        "data": "30924579043587490235",
+        "updatedBy": "admin",
+        "_version": 2,
+        "reports": {},
+        "_parent": "AWMdYxqHXyas6flGUNI8",
+        "_routing": "AWMdYxqHXyas6flGUNI8",
+        "createdBy": "admin",
+        "sighted": false,
+        "updatedAt": 1525206985767,
+        "message": "New observable description\n\nupdate observable",
+        "_id": "dfe74e82e589c2d35a9e81d9a57a9393",
+        "ioc": false,
+        "id": "dfe74e82e589c2d35a9e81d9a57a9393",
+        "createdAt": 1525206944773
+    },
+    "base": true,
+    "details": {
+        "message": "New observable description\n\nupdate observable"
+    },
+    "operation": "Update",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:355",
+    "objectType": "case_artifact"
+}
+
+
+###New Task###
+
+{
+    "startDate": 1525206521273,
+    "objectId": "AWMdZJO6Xyas6flGUNI_",
+    "rootId": "AWMdYxqHXyas6flGUNI8",
+    "object": {
+        "status": "Waiting",
+        "_type": "case_task",
+        "_routing": "AWMdYxqHXyas6flGUNI8",
+        "title": "New task 1",
+        "_version": 1,
+        "id": "AWMdZJO6Xyas6flGUNI_",
+        "_parent": "AWMdYxqHXyas6flGUNI8",
+        "flag": false,
+        "createdBy": "admin",
+        "_id": "AWMdZJO6Xyas6flGUNI_",
+        "order": 0,
+        "createdAt": 1525206520760
+    },
+    "base": true,
+    "details": {
+        "status": "Waiting",
+        "flag": false,
+        "order": 0,
+        "title": "New task 1"
+    },
+    "operation": "Creation",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:111",
+    "objectType": "case_task"
+}
+
+###Delete task###
+
+{
+    "startDate": 1525206643410,
+    "objectId": "AWMdZlTRXyas6flGUNJF",
+    "rootId": "AWMdYxqHXyas6flGUNI8",
+    "object": {
+        "status": "Cancel",
+        "_type": "case_task",
+        "_routing": "AWMdYxqHXyas6flGUNI8",
+        "title": "new task 2",
+        "updatedAt": 1525206642868,
+        "_version": 2,
+        "id": "AWMdZlTRXyas6flGUNJF",
+        "_parent": "AWMdYxqHXyas6flGUNI8",
+        "flag": false,
+        "createdBy": "admin",
+        "updatedBy": "admin",
+        "owner": "admin",
+        "_id": "AWMdZlTRXyas6flGUNJF",
+        "order": 0,
+        "createdAt": 1525206635728
+    },
+    "base": true,
+    "details": {
+        "status": "Cancel",
+        "owner": "admin"
+    },
+    "operation": "Update",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:198",
+    "objectType": "case_task"
+}
+
+###Task Complete###
+
+{
+    "startDate": 1525206800508,
+    "objectId": "AWMdZ_MeXyas6flGUNJJ",
+    "rootId": "AWMdYxqHXyas6flGUNI8",
+    "object": {
+        "status": "Completed",
+        "startDate": 1525206783828,
+        "_type": "case_task",
+        "_routing": "AWMdYxqHXyas6flGUNI8",
+        "endDate": 1525206800254,
+        "title": "New Task 2",
+        "updatedAt": 1525206800254,
+        "_version": 3,
+        "id": "AWMdZ_MeXyas6flGUNJJ",
+        "_parent": "AWMdYxqHXyas6flGUNI8",
+        "flag": false,
+        "createdBy": "admin",
+        "updatedBy": "admin",
+        "owner": "admin",
+        "_id": "AWMdZ_MeXyas6flGUNJJ",
+        "order": 0,
+        "createdAt": 1525206741779
+    },
+    "base": true,
+    "details": {
+        "status": "Completed"
+    },
+    "operation": "Update",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:299",
+    "objectType": "case_task"
+}
+
+
+###Task Update###
+{
+    "startDate": 1525206849564,
+    "objectId": "AWMdaX6eXyas6flGUNJN",
+    "rootId": "AWMdYxqHXyas6flGUNI8",
+    "object": {
+        "status": "InProgress",
+        "startDate": 1525206848731,
+        "_type": "case_task",
+        "_routing": "AWMdYxqHXyas6flGUNI8",
+        "title": "Task 3",
+        "updatedAt": 1525206848731,
+        "_version": 2,
+        "id": "AWMdaX6eXyas6flGUNJN",
+        "_parent": "AWMdYxqHXyas6flGUNI8",
+        "flag": false,
+        "createdBy": "admin",
+        "updatedBy": "admin",
+        "owner": "admin",
+        "_id": "AWMdaX6eXyas6flGUNJN",
+        "order": 0,
+        "createdAt": 1525206843037
+    },
+    "base": true,
+    "details": {
+        "status": "InProgress",
+        "owner": "admin"
+    },
+    "operation": "Update",
+    "requestId": "4d1e6831861e1f6a:-297568b3:1631d4c370f:-8000:317",
+    "objectType": "case_task"
+}
+
+###task description update###
+{
+    "rootId": "AWM41zqNuy9Z-7Df4Ytm",
+    "objectType": "case_task",
+    "requestId": "f1bba2138c182f42:-572418c:1633bff1e4d:-8000:248",
+    "objectId": "AWM8IU1TMQTQtFDLRZi8",
+    "startDate": 1525722279660,
+    "object": {
+        "updatedBy": "admin",
+        "createdAt": 1525722205520,
+        "_id": "AWM8IU1TMQTQtFDLRZi8",
+        "startDate": 1525722244741,
+        "_type": "case_task",
+        "_parent": "AWM41zqNuy9Z-7Df4Ytm",
+        "description": "update",
+        "_routing": "AWM41zqNuy9Z-7Df4Ytm",
+        "updatedAt": 1525722279130,
+        "_version": 3,
+        "owner": "admin",
+        "id": "AWM8IU1TMQTQtFDLRZi8",
+        "status": "InProgress",
+        "createdBy": "admin",
+        "title": "Get hash value",
+        "order": 0,
+        "flag": false
+    },
+    "operation": "Update",
+    "base": true,
+    "details": {
+        "description": "update"
+    }
+}
