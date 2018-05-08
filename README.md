@@ -30,7 +30,7 @@ Big shout out to Eric and everyone at [Recon InfoSec](https://reconinfosec.com/)
 
 # Caution!
 
-1. Make sure you change your `crypto secret` on TheHive
+1. Make sure you change your `crypto secret` on TheHive [(source)](https://github.com/TheHive-Project/TheHiveDocs/blob/master/admin/configuration.md)
 1. Make sure you configure SSL and a Proxy if you use in production [(source)](https://github.com/TheHive-Project/TheHiveDocs/blob/master/admin/webhook.md)
 1. I used the Flask builtin development server for TESTING ONLY. Please change it if you will use this in production[(source)](https://github.com/TheHive-Project/TheHiveDocs/blob/master/installation/binary-guide.md)
     * I recommend [Gunicorn](http://gunicorn.org/) with [NGINX](https://www.nginx.com/). You have lots of [choices](http://flask.pocoo.org/docs/0.12/deploying/)
